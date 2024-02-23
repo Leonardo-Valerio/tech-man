@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Man</title>
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../estilos/styleHome.css">
+    <link rel="stylesheet" href="../estilos/carrinho.css">
+    <link rel="stylesheet" href="../estilos/styleQueries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="../scripts/scriptHome.js"></script>
+</head>
+<body onload="exibirCarrinho()">
+    <span class="material-symbols-outlined" id="burguer" onclick="abrirMenu()">menu</span>
+    <nav id="navbar">
+        <a href="../paginas/home.html" class="menu">Home</a>
+        <a href="../paginas/sobreNos.html" class="menu">Sobre Nós</a>
+        <a href="../paginas/carrinho.html" class="menu">Carrinho</a>
+    </nav>
+    <div id="carrinho"></div>
+
+    <div id="total"></div>
+    <div id="apagar"></div>
+</body>
+</html>
