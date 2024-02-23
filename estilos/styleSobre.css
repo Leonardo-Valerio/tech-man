@@ -1,0 +1,12 @@
+.descricao{
+    margin: auto;
+    max-width: 90vw;
+    margin-bottom: 10vh;
+}
+.descricao h1{
+    margin-bottom: 20px;
+}
+.descricao p {
+    line-height: 30px;
+    text-indent: 30px;
+}

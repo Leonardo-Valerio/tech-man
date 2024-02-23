@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techa Man</title>
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../estilos/styleProdutos.css">
+    <link rel="stylesheet" href="../estilos/styleHome.css">
+    <link rel="stylesheet" href="../estilos/styleQueries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="../scripts/scriptHome.js"></script>
+</head>
+<body onload="nomeProduto()">
+    <span class="material-symbols-outlined" id="burguer" onclick="abrirMenu()">menu</span>
+    <nav id="navbar">
+        <a href="../paginas/home.html" class="menu" >Home</a>
+        <a href="sobreNos.html" class="menu">Sobre Nós</a>
+        <a href="carrinho.html" class="menu">Carrinho</a>
+    </nav>
+    <section class="tudo">
+        <section class="pecas">
+            <div class="img1" id="img1" onclick="inverterImg(0)"></div>
+            <div class="img2" id="img2" onclick="inverterImg(1)"></div>
+            <div class="img3" id="img3" onclick="inverterImg(2)"></div>
+            <div class="img4" id="img4" onclick="inverterImg(3)"></div>
+        </section>
+        <section class="infos">
+            <h1 id="roupa"></h1>
+            <h2 id="valor"></h2>
+            <input type="number" name="quatidade" id="iquantidade" value="1">
+            <button onclick="adicionarCarrinho()">Adicionar ao carrinho</button>
+        </section>
+    </section>
+    <h2 class="promo">Receba Promoções</h2>
+    <section class="formulario">
+        
+        <form action="contato" class="contato" id="contato">
+            <div class="row">
+                <input type="text" name="nome" id="inome" placeholder="Insira seu Nome" required minlength="3" maxlength="35">
+                <input type="email" name="email" id="iemail" placeholder="Insira seu e-mail" required>
+            </div>
+            <div class="row">
+                <input type="tel" name="telefone" id="itelefone" placeholder="Insira seu Telefone" maxlength="11" minlength="9" required>
+                <input type="submit" value="Enviar" onclick="enviarForm()" >
+            </div>
+        </form>
+    </section>
+    <footer >
+        <a href="../paginas/home.html" class="menu">Home</a>
+        <a href="sobreNos.html" class="menu">Sobre Nós</a>
+    </footer>
+    
+</body>
+</html>

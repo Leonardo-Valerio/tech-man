@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Man</title>
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../estilos/styleHome.css">
+    <link rel="stylesheet" href="../estilos/styleQueries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="../scripts/scriptHome.js"></script>
+    
+</head>
+<body>
+    <span class="material-symbols-outlined" id="burguer" onclick="abrirMenu()">menu</span>
+    <nav id="navbar">
+        <a href="" class="menu">Home</a>
+        <a href="sobreNos.html" class="menu">Sobre Nós</a>
+        <a href="carrinho.html" class="menu">Carrinho</a>
+    </nav>
+    <section class="apresentacao">
+        <h1>Seu Armário Tech</h1>
+        <p>Navegue e se inspire no mundo da moda</p>
+        
+    </section>
+    <section class="imgPrincipal">
+        <div  onclick="salvarRoupas(0)"></div>
+        <p>Camiseta Preta</p>
+        <h2>Principais Modelos</h2>
+    </section>
+    <section class="imgPequenas">
+        <div class="slots">
+            <div class="imgPq1" onclick="salvarRoupas(1)"></div>
+            <p>Jaqueta Jeans</p>
+        </div>
+        <div class="slots">
+            <div class="imgPq2" onclick="salvarRoupas(2)"></div>
+            <p>Camisa Manga Longa</p>
+        </div>
+        <div class="slots">
+            <div class="imgPq3" onclick="salvarRoupas(3)"></div>
+            <p>Moletom Preto</p>
+        </div>
+    </section>
+    <h2 class="promo">Receba Promoções</h2>
+    <section class="formulario">
+        
+        <form action="contato" class="contato" id="contato">
+            <div class="row">
+                <input type="text" name="nome" id="inome" placeholder="Insira seu Nome" required minlength="3" maxlength="35">
+                <input type="email" name="email" id="iemail" placeholder="Insira seu e-mail" required>
+            </div>
+            <div class="row">
+                <input type="tel" name="telefone" id="itelefone" placeholder="Insira seu Telefone" maxlength="11" minlength="9" required>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+    <footer >
+        <a href="home.html" class="menu">Home</a>
+        <a href="sobreNos.html" class="menu">Sobre Nós</a>
+    </footer>
+    
+   
+</body>
+</html>

@@ -1,0 +1,164 @@
+
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#burguer{
+    display: none;
+}
+nav{
+    height: 50px;
+    margin: 10px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+.menu:hover{
+    transition-duration: 0.5s;
+    font-size: 1.2em;
+}
+.apresentacao{
+    text-align: center;
+}
+.apresentacao > h1{
+    font-size: 50px;
+    margin: 25px;
+}
+.apresentacao > p{
+    margin-bottom: 20px;
+}
+
+.imgPrincipal{
+    margin-top: 45px;
+    margin-bottom: 150px;
+    height: 500px;
+    text-align: center;
+    
+   
+}
+.imgPrincipal > div{
+    background-position: center 40%;
+    margin: auto;
+    height: 500px;
+    background-image: url(../imagens/camiseta-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90vw;
+    margin-bottom: 10px;
+    box-shadow: 0px  3px 4px 4px rgba(0, 0, 0, 0.17);
+}
+.imgPrincipal p{
+    margin-bottom: 60px;
+}
+.imgPrincipal > div:hover{
+    transition-duration: 0.5s;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px  2px 5px 5px rgba(0, 0, 0, 0.277);
+    
+}
+.imgPequenas {
+    height: 400px;
+    margin-bottom: 60px;
+
+}
+.imgPequenas .slots{
+    width: 25vw;
+    margin-bottom: 10px;
+    margin-left: 6.25vw;
+    display: inline-block;
+}
+
+.imgPequenas .imgPq1{
+    background-position: center ;
+    height: 400px;
+    background-image: url(../imagens/jaqueta-jeans-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    box-shadow: 0px  3px 4px 4px rgba(0, 0, 0, 0.093);
+}
+
+
+.imgPequenas .imgPq2{
+    background-position: center;
+    height: 400px;
+    background-image: url(../imagens/camisa-manga-longa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    box-shadow: 0px  3px 4px 4px rgba(0, 0, 0, 0.093);
+}
+.imgPequenas .imgPq3{
+    background-position: center;
+    height: 400px;
+    background-image: url(../imagens/moletom-preto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    box-shadow: 0px  3px 4px 4px rgba(0, 0, 0, 0.093);
+}
+.imgPq1:hover{
+    transition-duration: 0.5s;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px  2px 5px 5px rgba(0, 0, 0, 0.371);
+}
+.imgPq2:hover{
+    transition-duration: 0.5s;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px  2px 5px 5px rgba(0, 0, 0, 0.277);
+}
+.imgPq3:hover{
+    transition-duration: 0.5s;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px  2px 5px 5px rgba(0, 0, 0, 0.223);
+}
+.promo{
+    text-align: center;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+
+    
+}
+.row{
+    display: flex;
+    width: 70vw;
+}
+
+input[type="text"],input[type="email"],input[type="tel"],input[type="submit"]{
+    padding: 10px;
+    flex: 1;
+    margin: 20px;
+}
+input[type="submit"]{
+    background-color: black;
+    color: white;
+}
+
+input[type="submit"]:hover{
+    transition-duration: 0.5s;
+    border: solid 2px rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.67);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+
+footer{
+    margin-bottom: 3vh;
+}

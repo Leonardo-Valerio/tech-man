@@ -1,0 +1,10 @@
+div{
+    
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#carrinho{
+    border: solid 1px black;
+}
